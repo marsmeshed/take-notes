@@ -7,6 +7,8 @@ const htmlRoutes = require('./routes/htmlroutes')
 
 const app = express()
 
+const PORT = process.env.PORT || 3001
+
 //middlewares
 app.use(express.static("public"));
 
@@ -19,6 +21,6 @@ app.use('/api', apiRoutes)
 app.use('/', htmlRoutes)
 
 
-app.listen(3001, () => {
-  console.log("Server is running on PORT 3001!")
+app.listen(PORT, () => {
+  console.log(`Server is running on PORT ${PORT}`)
 })
