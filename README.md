@@ -16,5 +16,8 @@ To do so type: "npm install express," "npm install fs" and lastly, "npm install 
    Here's a link to the repository located on GitHub:
    https://github.com/marsmeshed/take-notes
 
+   Here's a link to the posted Heroku site:
+   https://take-notes-mb.herokuapp.com/
+
    Here's a detailed YouTube videos explaining this project:
-   https://youtu.be/l5Kas0rAsGI
+   https://youtu.be/rJeu1MbFJb8
